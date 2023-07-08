@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+* {
+    text-align: center;
+    background-color: rgb(172, 223, 220);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ h1.heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: rgb(67, 67, 67);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1.subheading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(67, 67, 67);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todo-input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 251, 251);
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgb(205, 241, 240);
 }
 
-.App-link {
-  color: #61dafb;
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(67, 67, 67);
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgb(71, 154, 148);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(67, 67, 67);
 }
